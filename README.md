@@ -9,11 +9,15 @@ https://dribbble.com/shots/11128894-Food-Delivery-App
 ## Screenshots
 
 
-<p align="center">
-  <img src="https://github.com/brinesoftwares/FlutterIOT/blob/master/screenshots/app_screenshot.jpeg?raw=true" width="350" title="hover text">
-</p>
-<p float="left">
-  <img src="https://github.com/brinesoftwares/FlutterIOT/blob/master/screenshots/app_screenshot.jpeg?raw=true" width="100" />
-  <img src="/img2.png" width="500" /> 
-  <img src="/img3.png" width="100" />
-</p>
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/Screenshot_1582745092.png" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745125.png" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745139.png" width=270 height=480></td>
+  </tr>
+ </table>
