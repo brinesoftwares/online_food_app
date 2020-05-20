@@ -16,8 +16,8 @@ https://dribbble.com/shots/11128894-Food-Delivery-App
      <td>screenshots_3</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/brinesoftwares/online_food_app/blob/master/screenshots/Screenshot1.jpg?raw=true" width=270 height=480></td>
-    <td><img src="https://github.com/brinesoftwares/online_food_app/blob/master/screenshots/Screenshot1.jpg?raw=true" width=270 height=480></td>
-    <td><img src="https://github.com/brinesoftwares/online_food_app/blob/master/screenshots/Screenshot1.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/brinesoftwares/online_food_app/blob/master/screenshots/Screenshot_1.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/brinesoftwares/online_food_app/blob/master/screenshots/Screenshot_2.jpg?raw=true" width=250 height=480></td>
+    <td><img src="https://github.com/brinesoftwares/online_food_app/blob/master/screenshots/Screenshot_3.jpg?raw=true" width=270 height=480></td>
   </tr>
  </table>
