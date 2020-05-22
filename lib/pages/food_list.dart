@@ -89,8 +89,8 @@ class _FoodListState extends State<FoodList> {
                       crossAxisSpacing: 15,
                       itemCount: foods.length,
                       itemBuilder: (context, index) => index == 0
-                          ? BounceInUp(
-                              child: Container(
+                          ? 
+                           Container(
                                 height: 30,
                                 child: Center(
                                   child: Text(
@@ -100,18 +100,35 @@ class _FoodListState extends State<FoodList> {
                                         fontWeight: FontWeight.w500),
                                   ),
                                 ),
-                              ),
-                            )
-                          : index.isOdd
-                              ? FadeInRight(
-                                  delay: Duration(milliseconds: 100 * index),
-                                  duration: Duration(milliseconds: 1000),
-                                  child: animatedContainer(foods[index]))
-                              : FadeInLeft(
-                                  delay: Duration(milliseconds: 100 * index),
-                                  duration: Duration(milliseconds: 1000),
-                                  child: animatedContainer(foods[index]),
-                                )),
+                              )
+
+                          // BounceInUp(
+                          //     child: Container(
+                          //       height: 30,
+                          //       child: Center(
+                          //         child: Text(
+                          //           "Found 80 results",
+                          //           style: TextStyle(
+                          //               fontSize: 21,
+                          //               fontWeight: FontWeight.w500),
+                          //         ),
+                          //       ),
+                          //     ),
+                          //   )
+
+                          :  animatedContainer(foods[index])),
+                          
+                          // index.isOdd
+                          //     ? FadeInRight(
+                          //         delay: Duration(milliseconds: 100 * index),
+                          //         duration: Duration(milliseconds: 1000),
+                          //         child: animatedContainer(foods[index]))
+                          //     : FadeInLeft(
+                          //         delay: Duration(milliseconds: 100 * index),
+                          //         duration: Duration(milliseconds: 1000),
+                          //         child: animatedContainer(foods[index]),
+                          //       ) ),
+                          
                 ],
               ),
             )
