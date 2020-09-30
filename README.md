@@ -1,4 +1,4 @@
-# online_food_app
+# Food on 1 click
 
 Online food App with animation
 
